@@ -109,8 +109,8 @@ HELP_IMG = "https://telegra.ph/file/9dfcdab5244a61b323210.jpg"
 START_IMG = "https://telegra.ph/file/eb8617465e7a62650f862.jpg"
     
 PM_START_TEXT = """
-  ⫸ [Himawari](https://telegra.ph/file/7ba6536e75495cdc6ceb1.jpg) ⫷
-Konnichiwa, I am {}
+  (https://telegra.ph/file/7ba6536e75495cdc6ceb1.jpg)
+Konnichiwa/Hello, I am {}
  
 I am an Anime themed group management bot with some fun extras ;)
 
@@ -125,12 +125,12 @@ Haven't slept since: {}
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Summon Meow ➕",
+                            text=f"Add Me To Your Heaven ➕",
                             url=f"t.me/{BOT_USERNAME}?startgroup=true")
                     ],
                    [
                        InlineKeyboardButton(text="📓 Commands", callback_data="help_back"),
-                       InlineKeyboardButton(text="Source 🌐", url=f"https://github.com/ArshCypherZ/HWBot")
+                       InlineKeyboardButton(text="Source 🤲", url=f"https://github.com/FlameBury")
                     ],
                     [                  
                        InlineKeyboardButton(
